@@ -42,15 +42,13 @@
 			// Hacky way of forcing image's viewport using `font-size` and `line-height`
 			'font-size: 1px;',
 			'line-height: ' + this.height + 'px;',
-
 			// Hacky way of forcing a middle/center anchor point for the image
 		'padding: ' + this.height * .5 + 'px ' + this.width * .5 + 'px;',
-
 		// Set image dimensions
-		'background-size: ' + this.width + 'px ' + this.height + 'px;',
-
+		'background: url('+ url +');',
+		'background-size: 50px 50px;',
+		//'background-repeat: no-repeat;',
 		// Set image URL
-		'background: url('+ url +');'
 		].join(' ');
 
 		console.log('%c', style);
@@ -58,26 +56,9 @@
 
 	// Actually loads the image
 	image.src = url;
-})('./logo.png');
+})('http://52.79.171.243/logo.png');
 		</script>
 	</body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
