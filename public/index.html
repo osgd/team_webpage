@@ -1,38 +1,83 @@
 <html>
-<head>
-    <title>오삼굉땡 :: 팀 소개</title>
-    <link href="https://cdn.rawgit.com/singihae/Webfonts/master/style.css" rel="stylesheet" type="text/css" />
+	<head>
+		<title>오삼굉땡 :: 팀 소개</title>
+		<link href="https://cdn.rawgit.com/singihae/Webfonts/master/style.css" rel="stylesheet" type="text/css" />
 
-    <link rel="stylesheet" href="main.css" />
-</head>
-<body>
-<div id="wrap" class="hanna">
-    <div class="team_title">
-        <div class="part part1">
-            <div class="box box1" onclick="location.href='team_info.html'">
-                <span class="hanna">오</span>
-            </div>
-        </div>
-        <div class="part part2">
-            <div class="box box2" onclick="location.href='team_info.html'">
-                <span class="hanna">삼</span>
-            </div>
-        </div>
-        <div class="part part3">
-            <div class="box box3" onclick="location.href='team_info.html'">
-                <span class="hanna">굉</span>
-            </div>
-        </div>
-        <div class="part part4">
-            <div class="box box4" onclick="location.href='team_info.html'">
-                <span class="hanna">땡</span>
-            </div>
-        </div>
-    </div>
-    <span class="hanna copyright" > Copyright(c)2017 by 오삼굉땡 </span>
-</div>
-<script>
-	console.log("%c 안녕하세요! 3팀입니다!", "background: purple; color: white; font-size:2rem;");
-</script>
-</body>
+		<link rel="stylesheet" href="main.css" />
+	</head>
+	<body>
+		<div id="wrap" class="hanna">
+			<div class="team_title">
+				<div class="part part1">
+					<div class="box box1" onclick="location.href='team_info.html'">
+						<span class="hanna">오</span>
+					</div>
+				</div>
+				<div class="part part2">
+					<div class="box box2" onclick="location.href='team_info.html'">
+						<span class="hanna">삼</span>
+					</div>
+				</div>
+				<div class="part part3">
+					<div class="box box3" onclick="location.href='team_info.html'">
+						<span class="hanna">굉</span>
+					</div>
+				</div>
+				<div class="part part4">
+					<div class="box box4" onclick="location.href='team_info.html'">
+						<span class="hanna">땡</span>
+					</div>
+				</div>
+			</div>
+			<span class="hanna copyright" > Copyright(c)2017 by 오삼굉땡 </span>
+		</div>
+		<script>
+(function(url) {
+	// Create a new `Image` instance
+	var image = new Image();
+
+	image.onload = function() {
+		// Inside here we already have the dimensions of the loaded image
+		var style = [
+			// Hacky way of forcing image's viewport using `font-size` and `line-height`
+			'font-size: 1px;',
+			'line-height: ' + this.height + 'px;',
+
+			// Hacky way of forcing a middle/center anchor point for the image
+		'padding: ' + this.height * .5 + 'px ' + this.width * .5 + 'px;',
+
+		// Set image dimensions
+		'background-size: ' + this.width + 'px ' + this.height + 'px;',
+
+		// Set image URL
+		'background: url('+ url +');'
+		].join(' ');
+
+		console.log('%c', style);
+	};
+
+	// Actually loads the image
+	image.src = url;
+})('./logo.png');
+		</script>
+	</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
