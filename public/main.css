@@ -97,3 +97,60 @@
 .hanna {
     font-family: 'Hanna', fantasy;
 }
+
+
+
+.name_up_tag {
+    position: fixed;
+    bottom: 50px;
+    left: 1550px;
+    text-align: center;
+    
+}
+
+div div a {
+    text-decoration: none;
+    font-size: 30px;
+    color: #FFFFFF;
+    font-family: 'Hanna', fantasy;
+}
+
+.name_up_tag > div {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+}
+
+#oh_button {
+    background-color: #606060;
+}
+
+#sam_button {
+        background-color: #31B671;
+
+}
+
+#gwang_button {
+    background-color: #DD9E25;
+}
+
+#ddang_button {
+    background-color: #DF4C1A;
+}
+
+#up_button {
+    background-color: #663399;
+}
+
+.tag_comment {
+    font-family: 'Hanna', fantasy;
+    color: #000000;
+    position: fixed;
+    bottom: 300px;
+    left: 1450px;
+    font-size: 25px;
+}
+
+
+
