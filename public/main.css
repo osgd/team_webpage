@@ -156,6 +156,13 @@ div div a {
     font-size: 25px;
 }
 
+#du_tag_img {
+    width: 80px;
+    position: fixed;
+    bottom: 190px;
+    left: 1465px;
+}
+
 /*고정태그 끝*/
 
 
