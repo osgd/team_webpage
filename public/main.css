@@ -103,7 +103,7 @@
 }
 
 
-
+/*고정태그 시작*/
 .name_up_tag {
     position: fixed;
     bottom: 50px;
@@ -155,6 +155,8 @@ div div a {
     left: 1450px;
     font-size: 25px;
 }
+
+/*고정태그 끝*/
 
 
 
