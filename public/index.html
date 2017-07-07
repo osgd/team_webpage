@@ -31,51 +31,49 @@
 			</div>
 			<span class="hanna copyright" > Copyright(c)2017 by 오삼굉땡 </span>
 		</div>
-		<script>
-(function(url) {
-	// Create a new `Image` instance
-	var image = new Image();
+	<script>
+	(function(url) {
+		var image = new Image();
 
-	image.onload = function() {
-		// Inside here we already have the dimensions of the loaded image
-		var style = [
-			// Hacky way of forcing image's viewport using `font-size` and `line-height`
-			'font-size: 1px;',
-			'line-height: ' + this.height + 'px;',
-			// Hacky way of forcing a middle/center anchor point for the image
-		'padding: ' + this.height * .5 + 'px ' + this.width * .5 + 'px;',
-		// Set image dimensions
-		'background: url('+ url +');',
-		'background-size: 50px 50px;',
-		//'background-repeat: no-repeat;',
-		// Set image URL
-		].join(' ');
+		image.onload = function() {
+			var style = [
+				'font-size: 1px;',
+				'line-height: ' + this.height + 'px;',
+				'padding: ' + this.height * .5 + 'px ' + this.width * .5 + 'px;',
+				'background: url('+ url +');',
+				'background-size: 100px 100px;',
+				'background-repeat: no-repeat;',
+			].join(' ');
 
-		console.log('%c', style);
-	};
+			console.log('%c', style);
+			console.log('%c저희는 3조, 오삼굉땡입니다!', 'color: orangered;font-size: 30pt;');
+		};
 
 	// Actually loads the image
 	image.src = url;
 })('http://52.79.171.243/logo.png');
 		</script>
 
-		<!--떡집 로고!! -수완start-->
-		<div class="static_tag">
-			<div class="name_up_tag">
-				<div id="oh_button"><a href="#id">오</a></div>
-				<div id="sam_button"><a href="#id">삼</a></div>
-				<div id="gwang_button"><a href="#id">굉</a></div>
-				<div id="ddang_button"><a href="#id">땡</a></div>
-				<div id="up_button"><a href="#id">up</a></div>
-			</div>
-			<div class="tag_describe">
-				<div class="arrow"></div>
-				<!--멘트를 배민스럽게 고치기-->
-				<div class="tag_comment">클릭하세요~</div>
-			</div>
-		</div>
-		<!--떡집 로고!! -수완end-->
-				
+		image.src = url;
+	})('http://52.79.171.243/logo.png');
+	</script>
+
+	<!--떡집 로고!! -수완start-->
+        <div class="static_tag">
+            <div class="name_up_tag">
+                <div id="oh_button"><a href="#id">오</a></div>
+                <div id="sam_button"><a href="#id">삼</a></div>
+                <div id="gwang_button"><a href="#id">굉</a></div>
+                <div id="ddang_button"><a href="#id">땡</a></div>
+                <div id="up_button"><a href="#id">up</a></div>
+            </div>
+            <div class="tag_describe">
+                <div class="arrow"></div>
+                <!--멘트를 배민스럽게 고치기-->
+                <div class="tag_comment">클릭하세요~</div>
+            </div>
+        </div>
+    <!--떡집 로고!! -수완end-->
 
 
 	</body>
