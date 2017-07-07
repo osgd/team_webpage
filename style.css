@@ -1,0 +1,163 @@
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+
+.hanna {
+    font-family: 'Hanna', fantasy;
+    font-size: 30px;
+}
+
+body {
+    width: 100%;
+    font-family: 'BM JUA';
+    
+}
+
+body::before {
+    content: "";
+    position: absolute;
+    top: 0; 
+    left: 0;
+    width: 100%; 
+    height: 200%;  
+    opacity: .3;
+    z-index: -1;
+    background-image: url("http://7bna.net/images/white-background-images/white-background-images-4.jpg");
+    background-repeat:repeat;
+    background-size:auto;
+}
+
+#wrap {
+    width: 100%;
+    text-align: center;
+}
+
+.team_title {
+    margin-top: 80px;
+    margin-bottom: -20px;
+    text-align: center;
+    line-height: 18px;
+}
+
+
+.team_mate {
+    display:inline-flex;
+    height: 300px;
+    width: 250px;
+    height: 300px;
+    margin-right: 25px;
+    margin-top: 200px;
+    background: rgba(0, 0, 0, 0.2);
+    align-items: center;
+    justify-content: center;
+}
+
+.team_wrap {
+    display: block;
+    width: 250px;
+    height: 300px;
+    
+}
+
+.photo {
+    width: 120px;
+    height: 120px;
+    margin-top: -200px;
+    margin-left: 12px;
+}
+
+.content {
+    margin-top: 200px;
+    margin-left: 15px;
+    margin-right: 15px;
+    vertical-align: bottom;
+    display: block;
+    word-wrap: break-word;
+    
+    width: 210px;
+    height: 130px;
+}
+
+.name {
+    font-size : 150%;
+}
+
+.introduce {
+    margin-top : 30px;
+    font-size : 90%;
+}
+
+.sns_link {
+    background-color: darkgray;
+    margin-top : 40px;
+    padding-top: 5px;
+    padding-left: 20px;
+    
+}
+
+.icon {
+    width: 30px;
+    margin-right: 15px;
+}
+
+
+.hexagon
+{
+    margin-top: -100px;
+    overflow: hidden;
+    visibility: hidden;
+    -webkit-transform: rotate(120deg);
+    -moz-transform: rotate(120deg);
+    -o-transform: rotate(120deg);
+    transform: rotate(120deg);
+    cursor: pointer;
+}
+
+.hexagon-in1
+{   overflow: hidden;
+    width: 100%;
+    height: 100%;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+
+.hexagon-in2
+{   width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    visibility: visible;
+    -webkit-transform: rotate(-60deg);
+    -moz-transform: rotate(-60deg);
+    -o-transform: rotate(-60deg);
+    transform: rotate(-60deg);
+}
+
+#jinsu {
+    background-image: url(https://slack-imgs.com/?c=1&url=https%3A%2F%2Fgoo.gl%2F4BbHmM);
+    background-position-y: 10px;
+    background-position-x: 5px;
+}
+#donguk {
+    background-image: url(https://slack-imgs.com/?c=1&url=https%3A%2F%2Fgoo.gl%2FNW92cL);   
+    background-size:contain;
+}
+#yerin {
+    background-image: url(https://slack-imgs.com/?c=1&url=https%3A%2F%2Fgoo.gl%2FX1qqB6);   
+    background-size:contain;
+}
+#suwan {
+    background-image: url(https://slack-imgs.com/?c=1&url=https%3A%2F%2Fgoo.gl%2Fhdgdj1);   
+    background-size:contain;
+}
+
+.hexagon-in2:hover
+{   background-image: url(http://placekitten.com/241/241)
+}
+
+.hexagon2
+{   width: 190px;
+    height: 400px;
+    margin: -80px 0 0 20px;
+}
+

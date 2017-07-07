@@ -1,0 +1,99 @@
+@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+
+.team_title {
+    margin-top: 10%;
+    bottom: 5px;
+    right: 5px;
+    text-align: center;
+}
+
+.part {
+    width: 50%;
+    height:200px;
+}
+
+.part1 {
+    float:left;
+    text-align: right;
+}
+
+.part2 {
+    float:right;
+    text-align: left;
+}
+
+.part3 {
+    float:left;
+    text-align: right;
+}
+
+.part4 {
+    float:right;
+    text-align: left;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    color: white;
+}
+
+.box1 {
+    float:right;
+    padding-top: 115px;
+    background-color: #606060;
+}
+
+.box2 {
+    float:left;
+    padding-top: 115px;
+    background-color: #31B671;
+}
+
+.box3 {
+    float:right;
+    background-color: #DD9E25;
+}
+
+.box4 {
+    float:left;
+    background-color: #DF4C1A;
+}
+
+.box span {
+    font-size: 5em;
+}
+
+.box1:hover {
+    background-image: url(https://goo.gl/31goWx);
+    background-size: 400px 400px;
+    background-position: 0px 0px;
+}
+
+.box2:hover {
+    background-image: url(https://goo.gl/31goWx);
+    background-size: 400px 400px;
+    background-position: 200px 0px;
+}
+
+.box3:hover {
+    background-image: url(https://goo.gl/31goWx);
+    background-size: 400px 400px;
+    background-position: 0px 200px;
+}
+
+.box4:hover {
+    background-image: url(https://goo.gl/31goWx);
+    background-size: 400px 400px;
+    background-position: 200px 200px;
+}
+
+.copyright {
+    position:fixed;
+    bottom: 5px;
+    right: 5px;
+}
+
+.hanna {
+    font-family: 'Hanna', fantasy;
+}
