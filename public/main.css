@@ -147,6 +147,10 @@ div div a {
     background-color: #663399;
 }
 
+#up_button:hover ,#oh_button:hover, #sam_button:hover, #gwang_button:hover, #ddang_button:hover {
+    opacity: 0.9;
+}
+
 .tag_comment {
     font-family: 'Hanna', fantasy;
     color: #000000;
