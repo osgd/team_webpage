@@ -107,7 +107,7 @@
 .name_up_tag {
     position: fixed;
     bottom: 50px;
-    left: 1550px;
+    right: 20px;
     text-align: center;
     
 }
@@ -156,7 +156,7 @@ div div a {
     color: #000000;
     position: fixed;
     bottom: 300px;
-    left: 1450px;
+    right: 120px;
     font-size: 25px;
 }
 
@@ -164,7 +164,7 @@ div div a {
     width: 80px;
     position: fixed;
     bottom: 190px;
-    left: 1465px;
+    right: 105px;
 }
 
 /*고정태그 끝*/
