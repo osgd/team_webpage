@@ -107,7 +107,7 @@
 .name_up_tag {
     position: fixed;
     bottom: 50px;
-    right: 20px;
+    right: 40px;
     text-align: center;
     
 }
@@ -130,17 +130,56 @@ div div a {
     background-color: #606060;
 }
 
+#oh_button:hover + #js_tag_img {
+    animation-name: js_tag_animation;
+    animation-duration: 2s;
+}
+
+@keyframes js_tag_animation {
+    from {right: 10px; opacity: 0;}
+    to {right: 105px; opacity: 1;}
+}
+
 #sam_button {
         background-color: #31B671;
+}
 
+#sam_button:hover + #du_tag_img {
+    animation-name: du_tag_animation;
+    animation-duration: 2s;
+}
+
+@keyframes du_tag_animation {
+    from {right: 10px; opacity: 0;}
+    to {right: 105px; opacity: 1;}
 }
 
 #gwang_button {
     background-color: #DD9E25;
 }
 
+#gwang_button:hover + #sw_tag_img {
+    animation-name: sw_tag_animation;
+    animation-duration: 2s;
+}
+
+@keyframes sw_tag_animation {
+    from {right: 10px; opacity: 0;}
+    to {right: 105px; opacity: 1;}
+}
+
 #ddang_button {
     background-color: #DF4C1A;
+}
+
+#ddang_button:hover + #yr_tag_img {
+    animation-name: yr_tag_animation;
+    animation-duration: 2s;
+}
+
+@keyframes yr_tag_animation {
+    from {right: 10px; opacity: 0;}
+    to {right: 105px; opacity: 1;}
 }
 
 #up_button {
@@ -164,7 +203,36 @@ div div a {
     width: 80px;
     position: fixed;
     bottom: 190px;
-    right: 105px;
+    right: 10px;
+    opacity: 0;
+    z-index: -1;
+}
+
+#js_tag_img {
+    width: 80px;
+    position: fixed;
+    bottom: 235px;
+    right: 10px;
+    opacity: 0;
+    z-index: -1;
+}
+
+#sw_tag_img {
+    width: 80px;
+    position: fixed;
+    bottom: 145px;
+    right: 10px;
+    opacity: 0;
+    z-index: -1;
+}
+
+#yr_tag_img {
+    width: 80px;
+    position: fixed;
+    bottom: 102px;
+    right: 10px;
+    opacity: 0;
+    z-index: -1;
 }
 
 /*고정태그 끝*/
