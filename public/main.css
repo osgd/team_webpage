@@ -133,6 +133,7 @@ div div a {
 #oh_button:hover + #js_tag_img {
     animation-name: js_tag_animation;
     animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes js_tag_animation {
@@ -147,6 +148,7 @@ div div a {
 #sam_button:hover + #du_tag_img {
     animation-name: du_tag_animation;
     animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes du_tag_animation {
@@ -161,6 +163,7 @@ div div a {
 #gwang_button:hover + #sw_tag_img {
     animation-name: sw_tag_animation;
     animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes sw_tag_animation {
@@ -175,6 +178,7 @@ div div a {
 #ddang_button:hover + #yr_tag_img {
     animation-name: yr_tag_animation;
     animation-duration: 2s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes yr_tag_animation {
