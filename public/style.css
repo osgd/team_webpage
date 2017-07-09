@@ -2,13 +2,13 @@
 
 .hanna {
     font-family: 'Hanna', fantasy;
-    1font-size: 30px;
+    /*font-size: 30px;*/
 }
 
 body {
     width: 100%;
     font-family: 'BM JUA';
-    
+    margin: 0;
 }
 
 body::before {
@@ -20,9 +20,10 @@ body::before {
     height: 200%;  
     opacity: .3;
     z-index: -1;
-    background-image: url("http://7bna.net/images/white-background-images/white-background-images-4.jpg");
+    /*background-image: url("http://wallpaper-gallery.net/images/wallpaper-blur/wallpaper-blur-5.jpg");*/
     background-repeat:repeat;
-    background-size:auto;
+    background-size:contain;
+
 }
 
 
@@ -31,13 +32,129 @@ body::before {
     text-align: center;
 }
 
-.team_title {
-    margin-top: 80px;
-    margin-bottom: -20px;
-    text-align: center;
-    line-height: 18px;
+.section {
+    margin-top: 50px;
+    margin-right: 800px;
+    width: auto;
+    overflow: none;
+    font-size: 4rem;
+    line-height: 6rem;
+    
 }
 
+.section_text {
+    width: 1000px;
+    font-size: 2rem;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.s1 {
+    display: inline-block;
+    width: 280px;
+    border-bottom: 6px solid #31B671;
+    margin-bottom: 50px;
+}
+
+.s2 {
+    display: inline-block;
+    width: 516px;
+    margin-left: 220px;
+    border-bottom: 6px solid #DD9E25;
+    margin-bottom: 50px;
+}
+
+.s3 {
+    display: inline-block;
+    width: 280px;
+    border-bottom: 6px solid #DF4C1A;
+    margin-bottom: 50px;
+}
+
+.mate_wrap {
+    background: transparent;
+    width: auto;
+    overflow: hidden;
+    margin-bottom: 100px;
+}
+
+.mate {
+    /*left: 800px;*/
+    /*width: 800px;*/
+    display: inline-block;
+    background: #fff;
+    width: 1000px;
+}
+
+.mate > div {
+    display: flex;
+    height: 200px;
+}
+
+.mate_text {
+    text-align: left;
+    padding: 30px;
+}
+
+.mate_text > h1 {
+    font-size: 2.5rem;
+    margin-top: 0;
+}
+
+.mate_text > em {
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.mate1 {
+    border-left: 8px solid rgba(96, 96, 96, 0.5);
+    background-color: rgba(96, 96, 96, 0.1);
+    border-right: 16px solid rgba(96, 96, 96, 0.02);
+}
+
+.mate2 {
+    border-left: 8px solid rgba(49, 182, 113, 0.5);
+    background-color: rgba(49, 182, 113, 0.1);
+    border-right: 16px solid rgba(49, 182, 113, 0.02);
+}
+
+.mate3 {
+    border-left: 8px solid rgba(221, 158, 37, 0.5);
+    background-color: rgba(221, 158, 37, 0.1);
+    border-right: 16px solid rgba(221, 158, 37, 0.02);
+}
+
+.mate4 {
+    border-left: 8px solid rgba(223, 76, 26, 0.5);
+    background-color: rgba(223, 76, 26, 0.1);
+    border-right: 16px solid rgba(223, 76, 26, 0.02);
+}
+
+.member_pic {
+    display: inline-block;
+    text-align:center;
+}
+
+.jinsu {
+    --bg-image: url(./2.png);
+}
+
+.donguk {
+    --bg-image: url(./1.png);
+}
+
+.suwan {
+    --bg-image: url(./4.png);
+}
+
+.yerin {
+    --bg-image: url(./3.png);
+}
+
+.what_team_wrap {
+    margin-bottom: 100px;
+}
 
 .team_mate {
     display:inline-flex;
@@ -99,9 +216,9 @@ body::before {
     margin-right: 15px;
 }
 
-
 .hexagon
 {
+    float: left;
     margin-top: -100px;
     overflow: hidden;
     visibility: hidden;
@@ -110,10 +227,18 @@ body::before {
     -o-transform: rotate(120deg);
     transform: rotate(120deg);
     cursor: pointer;
+    outline: 10px solid red;
+
+    width: 140px;
+    height: 400px;
+    margin: -100px 0 0 40px;
 }
 
-.hexagon-in1
-{   overflow: hidden;
+.hexagon > div
+{
+    display: block;
+    position: relative;
+    overflow: hidden;
     width: 100%;
     height: 100%;
     -webkit-transform: rotate(-60deg);
@@ -122,8 +247,9 @@ body::before {
     transform: rotate(-60deg);
 }
 
-.hexagon-in2
-{   width: 100%;
+.hexagon > div > div
+{
+    width: 100%;
     height: 100%;
     background-repeat: no-repeat;
     background-position: 50%;
@@ -132,33 +258,7 @@ body::before {
     -moz-transform: rotate(-60deg);
     -o-transform: rotate(-60deg);
     transform: rotate(-60deg);
-}
 
-#jinsu {
-    background-image: url(https://slack-imgs.com/?c=1&url=https%3A%2F%2Fgoo.gl%2F4BbHmM);
-    background-position-y: 10px;
-    background-position-x: 5px;
-}
-#donguk {
-    background-image: url(https://slack-imgs.com/?c=1&url=https%3A%2F%2Fgoo.gl%2FNW92cL);   
+    background-image: var(--bg-image);
     background-size:contain;
 }
-#yerin {
-    background-image: url(https://slack-imgs.com/?c=1&url=https%3A%2F%2Fgoo.gl%2FX1qqB6);   
-    background-size:contain;
-}
-#suwan {
-    background-image: url(https://slack-imgs.com/?c=1&url=https%3A%2F%2Fgoo.gl%2Fhdgdj1);   
-    background-size:contain;
-}
-
-.hexagon-in2:hover
-{   background-image: url(http://placekitten.com/241/241)
-}
-
-.hexagon2
-{   width: 190px;
-    height: 400px;
-    margin: -80px 0 0 20px;
-}
-

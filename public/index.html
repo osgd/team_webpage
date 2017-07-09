@@ -1,9 +1,6 @@
 <html>
   <head>
     <title>오삼굉땡 :: 팀 소개</title>
-    <link href="https://cdn.rawgit.com/singihae/Webfonts/master/style.css"
-					rel="stylesheet"
-					type="text/css" />
 		<link rel="stylesheet" href="main.css" />
 		<link rel="stylesheet" href="style.css" />
 		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
@@ -20,132 +17,106 @@
   </head>
   <body>
     <div id="wrap" class="hanna">
+      <!-- 팀 로고 -->
       <div class="team_title">
         <div class="part part1">
-          <div class="box box1" onclick="location.href='team_info.html'">
+          <div class="box box1" onclick="location.href='#jinsu'">
             <span class="hanna">오</span>
           </div>
         </div>
         <div class="part part2">
-          <div class="box box2" onclick="location.href='team_info.html'">
+          <div class="box box2" onclick="location.href='#donguk'">
             <span class="hanna">삼</span>
           </div>
         </div>
         <div class="part part3">
-          <div class="box box3" onclick="location.href='team_info.html'">
+          <div class="box box3" onclick="location.href='#suwan'">
             <span class="hanna">굉</span>
           </div>
         </div>
         <div class="part part4">
-          <div class="box box4" onclick="location.href='team_info.html'">
+          <div class="box box4" onclick="location.href='#yerin'">
             <span class="hanna">땡</span>
           </div>
         </div>
       </div>
+      <!-- 팀 로고 끝 -->
 
-      <div class="team_about">
-        <div class="team_mate">
-          <div class="team_wrap">
-            <div class="photo">
-              <div class="hexagon hexagon2">
-                <div class="hexagon-in1">
-                  <div id="jinsu" class="hexagon-in2"></div>
-                </div>
+      <!-- 팀원 소개 -->
+      <div class="about">
+        <div class="section" id="team_introduce">
+          <div class="s1">팀원 소개</div>
+        </div>
+        <div class="mate_wrap">
+          <div class="mate">
+            <div class="mate1" id="jinsu">
+              <div class="hexagon jinsu"><div><div></div></div></div>
+              <div class="mate_text">
+                <h1>Jinsu Park</h1>
+                <em>이번에 우아한테크캠프에서 웹 파트로 참여하게 되었고, 주력 언어는 C/C++입니다.<br />여러가지 많이 배워가겠습니다. 잘 부탁드립니다!</em>
               </div>
             </div>
-            <div class="content">
-              <div class="name">박진수</div>
-              <div class="introduce">오늘의 진수</div>
+            <div class="mate2" id="donguk">
+              <div class="hexagon donguk"><div><div></div></div></div>
+              <div class="mate_text">
+                <h1>Donguk Seo</h1>
+                <em>삼팀장 동욱</em>
+              </div>
             </div>
-            <div class="sns_link">
-              <img src="https://cdn2.iconfinder.com/data/icons/social-networks-18/100/Facebook_logo-128.png" class="icon">
-              <img src="https://cdn2.iconfinder.com/data/icons/social-networks-18/100/Twitter_logo-128.png" class="icon">
-              <img src="https://cdn2.iconfinder.com/data/icons/social-networks-18/100/Instagram_logo-128.png" class="icon">
-              <img src="https://cdn2.iconfinder.com/data/icons/social-networks-18/100/G_google._logo-128.png" class="icon">
+            <div class="mate3" id="suwan">
+              <div class="hexagon suwan"><div><div></div></div></div>
+              <div class="mate_text">
+                <h1>Suwan Kim</h1>
+                <em>굉장한 수완</em>
+              </div>
+            </div>
+            <div class="mate4" id="yerin">
+              <div class="hexagon yerin"><div><div></div></div></div>
+              <div class="mate_text">
+                <h1>Yerin Hwang</h1>
+                <em>땡잡은 예린</em>
+              </div>
             </div>
           </div>
         </div>
-        <div class="team_mate">
-          <div class="team_wrap">
-            <div class="photo">
-              <div class="hexagon hexagon2">
-                <div class="hexagon-in1">
-                  <div id="donguk" class="hexagon-in2"></div>
-                </div>
-              </div>
-            </div>
-            <div class="content">
-              <div class="name">서동욱</div>
-              <div class="introduce">여러분 잘부탁드립니다</div>
-            </div>
-            <div class="sns_link">
-              <img src="https://cdn2.iconfinder.com/data/icons/social-networks-18/100/Facebook_logo-128.png" class="icon">
-              <img src="https://cdn2.iconfinder.com/data/icons/social-networks-18/100/Twitter_logo-128.png" class="icon">
-              <img src="https://cdn2.iconfinder.com/data/icons/social-networks-18/100/Instagram_logo-128.png" class="icon">
-              <img src="https://cdn2.iconfinder.com/data/icons/social-networks-18/100/G_google._logo-128.png" class="icon">
-            </div>
+      <!-- 팀원 소개 끝 -->
+
+      <div class="what_team_wrap">
+        <div class="section">
+          <div class="s2">우리가 어떤 팀입니까</div>
+      </div>
+      <div class="section_text"></div>
+      <div class="member_pic">
+        <img width="1000" src="./member.jpg">
+      </div>
+      </div>
+
+      <!-- 연락하기 -->
+      <div class="contact_wrap">
+        <div class="section">
+          <div class="s3">연락하기</div>
+        </div>
+        <div class="section_text">팀에 전달하고 싶은 말을 보낼 수 있습니다</div>
+          <div class="send_slack_messgae container" id="message-form">
+
+            <header>
+              <h3>Contact</h3>
+            </header>
+            <p>
+            <textarea name="" id="message" placeholder="하고 싶은 말......" ></textarea>
+            </p>
+            <footer>
+              <p class="clearfix">
+              <span id="message-characters">연락처를 남겨주세요</span>
+              <input type="submit" id="button-send" value="Send">
+              </p>
+            </footer>
+            </fieldset>
+
           </div>
         </div>
-        <div class="team_mate">
-          <div class="team_wrap">
-            <div class="photo">
-              <div class="hexagon hexagon2">
-                <div class="hexagon-in1">
-                  <div id="suwan" class="hexagon-in2"></div>
-                </div>
-              </div>
-            </div>
-            <div class="content">
-              <div class="name">김수완</div>
-              <div class="introduce">최고가 됩시다</div>
-            </div>
-            <div class="sns_link">
-              <img src="https://cdn2.iconfinder.com/data/icons/social-networks-18/100/Facebook_logo-128.png" class="icon">
-              <img src="https://cdn2.iconfinder.com/data/icons/social-networks-18/100/Twitter_logo-128.png" class="icon">
-              <img src="https://cdn2.iconfinder.com/data/icons/social-networks-18/100/Instagram_logo-128.png" class="icon">
-              <img src="https://cdn2.iconfinder.com/data/icons/social-networks-18/100/G_google._logo-128.png" class="icon">
-            </div>
-          </div>
-        </div>
-        <div class="team_mate">
-          <div class="team_wrap">
-            <div class="photo">
-              <div class="hexagon hexagon2">
-                <div class="hexagon-in1">
-                  <div id="yerin" class="hexagon-in2"></div>
-                </div>
-              </div>
-            </div>
-            <div class="content">
-              <div class="name">황예린</div>
-              <div class="introduce">땡잡은 예린이</div>
-            </div>
-            <div class="sns_link">
-              <img src="https://cdn2.iconfinder.com/data/icons/social-networks-18/100/Facebook_logo-128.png" class="icon">
-              <img src="https://cdn2.iconfinder.com/data/icons/social-networks-18/100/Twitter_logo-128.png" class="icon">
-              <img src="https://cdn2.iconfinder.com/data/icons/social-networks-18/100/Instagram_logo-128.png" class="icon">
-              <img src="https://cdn2.iconfinder.com/data/icons/social-networks-18/100/G_google._logo-128.png" class="icon">
-            </div>
-          </div>
-        </div>
+        <!-- 연락하기 끝 -->
 
-				<div class="send_slack_messgae container" id="message-form">
-
-					<header>
-						<h3>Contact</h3>
-					</header>
-					<p>
-					<textarea name="" id="message" placeholder="하고 싶은 말......" ></textarea>
-					</p>
-					<footer>
-						<p class="clearfix">
-						<span id="message-characters">연락처를 남겨주세요</span>
-						<input type="submit" id="button-send" value="Send">
-						</p>
-					</footer>
-					</fieldset>
-
-				</div>
 				<span class="hanna copyright" > Copyright(c)2017 by 오삼굉땡 </span>
 			</div>
       <script>
@@ -168,7 +139,7 @@
 
 				  // Actually loads the image
 				  image.src = url;
-				})('http://52.79.171.243/logo.png');
+				})(`${location.href.substr(0, location.href.lastIndexOf('/')+1)}logo.png`);
 
 				$("#button-send").click(function(){
 					let message = $("#message").val();
@@ -192,15 +163,15 @@
           <div class="tag_comment">눌러봐~</div>
         </div>
         <div class="name_up_tag">
-          <div id="oh_button"><a href="#id">오</a></div>
+          <div id="oh_button" onclick="location.href='#jinsu'">오</div>
           <img id="js_tag_img" src="js.png">
-          <div id="sam_button"><a href="#id">삼</a></div>
+          <div id="sam_button" onclick="location.href='#donguk'">삼</div>
           <img id="du_tag_img" src="du.png">
-          <div id="gwang_button"><a href="#id">굉</a></div>
+          <div id="gwang_button" onclick="location.href='#suwan'">굉</div>
           <img id="sw_tag_img" src="sw.png">
-          <div id="ddang_button"><a href="#id">땡</a></div>
+          <div id="ddang_button" onclick="location.href='#yerin'">땡</div>
           <img id="yr_tag_img" src="yr.png">
-          <div id="up_button"><a href="#wrap">up</a></div>
+          <div id="up_button" onclick="location.href='#wrap'">up</a></div>
         </div>
       </div>
       <!--떡집 로고!! -수완end-->
