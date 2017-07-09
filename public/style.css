@@ -2,7 +2,7 @@
 
 .hanna {
     font-family: 'Hanna', fantasy;
-    font-size: 30px;
+    1font-size: 30px;
 }
 
 body {
@@ -24,6 +24,7 @@ body::before {
     background-repeat:repeat;
     background-size:auto;
 }
+
 
 #wrap {
     width: 100%;

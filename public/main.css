@@ -2,8 +2,9 @@
 
 .team_title {
     margin-top: 10%;
-    bottom: 5px;
-    right: 5px;
+    margin-bottom: 5px;
+    margin-right: 5px;
+    height: 800px;
     text-align: center;
 }
 
