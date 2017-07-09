@@ -1,10 +1,22 @@
 <html>
   <head>
     <title>오삼굉땡 :: 팀 소개</title>
-    <link href="https://cdn.rawgit.com/singihae/Webfonts/master/style.css" rel="stylesheet" type="text/css" />
+    <link href="https://cdn.rawgit.com/singihae/Webfonts/master/style.css"
+					rel="stylesheet"
+					type="text/css" />
+		<link rel="stylesheet" href="main.css" />
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+						integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+			 			crossorigin="anonymous"></script>
+		<script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+		<script type="text/javascript">
+			(function(){
+				emailjs.init("user_5tU1pHjI4ns3MPj5PaNfL");
+			})();
+		</script>
 
-    <link rel="stylesheet" href="main.css" />
-    <link rel="stylesheet" href="style.css" />
+
   </head>
   <body>
     <div id="wrap" class="hanna">
@@ -137,27 +149,40 @@
 				<span class="hanna copyright" > Copyright(c)2017 by 오삼굉땡 </span>
 			</div>
       <script>
-(function(url) {
-  var image = new Image();
+				(function(url) {
+  				var image = new Image();
 
-  image.onload = function() {
-    var style = [
-      'font-size: 1px;',
-      'line-height: ' + this.height + 'px;',
-    'padding: ' + this.height * .5 + 'px ' + this.width * .5 + 'px;',
-    'background: url('+ url +');',
-    'background-size: 100px 100px;',
-    'background-repeat: no-repeat;',
-    ].join(' ');
+  				image.onload = function() {
+    			var style = [
+      		'font-size: 1px;',
+      		'line-height: ' + this.height + 'px;',
+    			'padding: ' + this.height * .5 + 'px ' + this.width * .5 + 'px;',
+    			'background: url('+ url +');',
+    		 'background-size: 100px 100px;',
+ 			   'background-repeat: no-repeat;',
+   				 ].join(' ');
 
-    console.log('%c', style);
-    console.log('%c저희는 3조, 오삼굉땡입니다!', 'color: orangered;font-size: 30pt;');
-  };
+			    console.log('%c', style);
+  			  console.log('%c저희는 3조, 오삼굉땡입니다!', 'color: orangered;font-size: 30pt;');
+				  };
 
-  // Actually loads the image
-  image.src = url;
-})('http://52.79.171.243/logo.png');
-      </script>
+				  // Actually loads the image
+				  image.src = url;
+				})('http://52.79.171.243/logo.png');
+
+				$("#button-send").click(function(){
+					let message = $("#message").val();
+					emailjs.send("wk_seo0515_gmail_com",
+												"template_M1jfY6yZ",
+												{"reply_to":"wk.seo0515@gmail.com",
+												"message_html": message});
+					$("#message").val("");
+					alert("성공적으로 이메일을 보냈습니다.");
+				});
+
+			</script>
+
+
 
       <!--떡집 로고!! -수완start-->
       <div class="static_tag">
