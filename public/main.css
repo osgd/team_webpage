@@ -6,7 +6,8 @@
     min-height: 800px;
     height: auto; 
     text-align: center;
-    background: url("http://wallpaper-gallery.net/images/wallpaper-blur/wallpaper-blur-20.jpg");
+    /* http://wallpaper-gallery.net/images/wallpaper-blur/wallpaper-blur-20.jpg */
+    background: url("./images/background.jpg");
     background-size: cover;
 }
 
@@ -68,28 +69,28 @@
 }
 
 .box1:hover {
-    background-image: url(./member.jpg);
+    background-image: url(./images/member.jpg);
     background-size: 400px 400px;
     background-position: 0px 0px;
     cursor: pointer;
 }
 
 .box2:hover {
-    background-image: url(./member.jpg);
+    background-image: url(./images/member.jpg);
     background-size: 400px 400px;
     background-position: 200px 0px;
     cursor: pointer;
 }
 
 .box3:hover {
-    background-image: url(./member.jpg);
+    background-image: url(./images/member.jpg);
     background-size: 400px 400px;
     background-position: 0px 200px;
     cursor: pointer;
 }
 
 .box4:hover {
-    background-image: url(./member.jpg);
+    background-image: url(./images/member.jpg);
     background-size: 400px 400px;
     background-position: 200px 200px;
     cursor: pointer;

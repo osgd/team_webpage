@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/earlyaccess/hanna.css);
+@import url(://fonts.googleapis.com/earlyaccess/hanna.css);
 
 .hanna {
     font-family: 'Hanna', fantasy;
@@ -137,19 +137,19 @@ body::before {
 }
 
 .jinsu {
-    --bg-image: url(./2.png);
+    --bg-image: url(./images/m_jinsu.png);
 }
 
 .donguk {
-    --bg-image: url(./1.png);
+    --bg-image: url(./images/m_donguk.png);
 }
 
 .suwan {
-    --bg-image: url(./4.png);
+    --bg-image: url(./images/m_suwan.png);
 }
 
 .yerin {
-    --bg-image: url(./3.png);
+    --bg-image: url(./images/m_yerin.png);
 }
 
 .what_team_wrap {
