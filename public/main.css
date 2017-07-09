@@ -104,7 +104,7 @@
 }
 
 
-/*고정태그 시작*/
+/*************************고정태그 part 시작**************************/
 .name_up_tag {
     position: fixed;
     bottom: 50px;
@@ -138,7 +138,7 @@ div div a {
 }
 
 @keyframes js_tag_animation {
-    from {right: 10px; opacity: 0;}
+    from {right: 50px; opacity: 0;}
     to {right: 105px; opacity: 1;}
 }
 
@@ -153,7 +153,7 @@ div div a {
 }
 
 @keyframes du_tag_animation {
-    from {right: 10px; opacity: 0;}
+    from {right: 50px; opacity: 0;}
     to {right: 105px; opacity: 1;}
 }
 
@@ -168,7 +168,7 @@ div div a {
 }
 
 @keyframes sw_tag_animation {
-    from {right: 10px; opacity: 0;}
+    from {right: 50px; opacity: 0;}
     to {right: 105px; opacity: 1;}
 }
 
@@ -183,7 +183,7 @@ div div a {
 }
 
 @keyframes yr_tag_animation {
-    from {right: 10px; opacity: 0;}
+    from {right: 50px; opacity: 0;}
     to {right: 105px; opacity: 1;}
 }
 
@@ -199,8 +199,8 @@ div div a {
     font-family: 'Hanna', fantasy;
     color: #000000;
     position: fixed;
-    bottom: 300px;
-    right: 120px;
+    bottom: 280px;
+    right: 90px;
     font-size: 25px;
 }
 
@@ -208,7 +208,7 @@ div div a {
     width: 80px;
     position: fixed;
     bottom: 190px;
-    right: 10px;
+    right: 50px;
     opacity: 0;
     z-index: -1;
 }
@@ -217,7 +217,7 @@ div div a {
     width: 80px;
     position: fixed;
     bottom: 235px;
-    right: 10px;
+    right: 50px;
     opacity: 0;
     z-index: -1;
 }
@@ -226,7 +226,7 @@ div div a {
     width: 80px;
     position: fixed;
     bottom: 145px;
-    right: 10px;
+    right: 50px;
     opacity: 0;
     z-index: -1;
 }
@@ -235,12 +235,12 @@ div div a {
     width: 80px;
     position: fixed;
     bottom: 102px;
-    right: 10px;
+    right: 50px;
     opacity: 0;
     z-index: -1;
 }
 
-/*고정태그 끝*/
+/********************고정태그 part 끝***************************/
 
 
 
